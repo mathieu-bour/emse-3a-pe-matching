@@ -1,0 +1,31 @@
+{
+  "name": "@mathieubour/emse-3a-pe-matching",
+  "version": "0.1.0",
+  "description": "Match a set of group of students with a set of projects.",
+  "keywords": [
+    "emse",
+    "pe",
+    "projet-detude"
+  ],
+  "scripts": {
+    "main": "ts-node ./src/main.ts"
+  },
+  "author": {
+    "name": "Mathieu Bour",
+    "email": "mathieu@mathrix.fr"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mathieu-bour/emse-3a-pe-matching.git"
+  },
+  "dependencies": {
+    "csv-parse": "^4.8.3",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.1",
+    "@types/csv-parse": "^1.2.2"
+  }
+}
